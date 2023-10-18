@@ -60,11 +60,18 @@
    - Akışlar (Streams)
    - Dosya İzinleri
 
-## 10. [Event ve Delegate](event-delegate.md.md)
+## 10. [Asenkron Programlama ve Task](asenkron-programlama-ve-paralel-programlama.md)
+ - Asenkron Programlama Nedir?
+ - Task ve Await
+ - Paralel Programlama
+ - Task ve Thread Karşılaştırması
+
+## 11. [Event ve Delegate](event-delegate.md)
  - Etkinlikler (Events)
  - Delegeler
 
 
- 
+
+
 
 
