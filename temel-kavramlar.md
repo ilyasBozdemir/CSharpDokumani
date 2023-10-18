@@ -6,34 +6,50 @@ C# programlama dilini anlamaya başlamak için, dilin temel kavramlarını ve s�
 
 C#, Microsoft tarafından geliştirilen bir programlama dilidir ve genellikle Windows uygulamaları geliştirmek için kullanılır. C#, hem basit hem de güçlü bir dil olup birçok farklı uygulama türünde kullanılabilir.
 
+## Veri Tipleri ve Değişkenler
 
-## İlk C# Programınız
+C# programlamasında, veri tipleri ve değişkenler, temel kavramlardır. Bu bölümde, bu kavramları daha ayrıntılı bir şekilde inceleyeceğiz.
 
-C# programlamaya başlamak için genellikle basit bir "Merhaba, Dünya!" uygulamasıyla başlanır. Aşağıdaki örnek, ilk C# programınızı oluşturmanıza yardımcı olacaktır:
+### Veri Tipleri
 
-```csharp
-using System;
+Veri tipleri, bir değişkenin hangi türde veri saklayacağını belirler. İşte bazı temel veri tipleri:
 
-class Program
-{
-    static void Main()
-    {
-        Console.WriteLine("Merhaba, Dünya!");
-    }
-}
+- **int**: Tam sayıları temsil eder. Örneğin:
+  ```csharp
+  int yas = 30;
+  ```
 
-```
-Bu örnek, temel bir C# programını temsil eder. İşte bu programın bileşenleri:
+  - **float**: Ondalıklı sayıları temsil eder. Örneğin:
+  ```csharp
+  float fiyat = 19.99f;
+  ```
+    - **char**: Tek bir karakteri temsil eder. Örneğin:
+  ```csharp
+  char not = 'A';
+  ```
+   - **bool**:Mantıksal (boolean) değerleri temsil eder. Sadece iki değere sahiptir: true veya false. Örneğin:
+  ```csharp
+  bool onaylandi = true;
+  ```
+  ### Değişkenler
+  Değişkenler, verileri saklamak ve işlemek için kullanılan öğelerdir. Bir değişken, bir veri türüne sahiptir ve bu türe uygun değerler alabilir. Değişken tanımlamak için genellikle şu sözdizimi kullanılır:
 
-`using System;` : Bu kod, System adlı bir isim alanını içe aktarır. Bu isim alanı, temel C# işlevlerini ve .NET çerçevesinin birçok özelliğini içerir.
+  ```csharp
+  <Veri Tipi> <Değişken Adı> = <Değer>;
+  ```
 
-`class Program` : Program adlı bir sınıf tanımlarız. Bir C# programı genellikle bir sınıf içinde tanımlanır.
+    ```csharp
+  int sayi = 42;
+  float ortalama = 95.5f;
+  char harf = 'B';
+  bool sonuc = true;
+  ```
+  Değişkenlerin isimlendirilmesi konusunda bazı kurallar vardır. İsimlendirme kuralları şunlardır:
 
-`static void Main()` : Main adlı özel bir metod tanımlarız. Programın başlangıç noktası olarak işlev görür. Program çalıştırıldığında bu metodu çağırmaya başlar.
-
-`Console.WriteLine("Merhaba, Dünya!");` : Bu kod, "Merhaba, Dünya!" metnini ekrana yazdırmak için kullanılır. Console.WriteLine metodu ekrana çıktı verir.
-
-Bu örnekle başlayarak, C# programlamayı öğrenmeye başlayabilirsiniz. Daha fazla örnek ekleyerek ve temel kavramları anlayarak ilerleyebilirsiniz.
+Değişken adları harfle veya alt çizgi (_) ile başlamalıdır.
+Değişken adları yalnızca harf, rakam ve alt çizgi içerebilir.
+Büyük ve küçük harf ayrımına duyarlıdır, yani "degisken" ve "Degisken" farklı değişkenlerdir.
+Bu temel kavramlar, C# programlamasının temelini oluşturur. Veri tipleri ve değişkenler, verilerin işlenmesi için önemlidir ve daha karmaşık programlar yazarken sıkça kullanılır.
 
 
 

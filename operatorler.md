@@ -139,3 +139,35 @@ int sayi = 30;
 sayi /= 3; // sayi şimdi 10
 
 ```
+## Mantıksal  Operatörler
+
+Mantıksal operatörler, mantıksal ifadeleri değerlendirmek için kullanılır. İşte bazı mantıksal operatörler:
+
+- VE  (`&&`): İki koşulu kontrol eder ve her iki koşul da doğru olduğunda true döner.
+Örnek kullanım:
+```csharp
+
+bool dogru = true;
+bool yanlis = false;
+bool sonuc = dogru && yanlis; // sonuc şimdi false
+
+```
+
+- VEYA   (`||`): İki koşulu kontrol eder ve her iki koşul da doğru olduğunda true döner.
+Örnek kullanım:
+```csharp
+
+bool dogru = true;
+bool yanlis = false;
+bool sonuc = dogru || yanlis; // sonuc şimdi true
+
+```
+- DEĞİL (`!`): Bir koşulu tersine çevirir.
+Örnek kullanım:
+```csharp
+
+bool dogru = true;
+bool sonuc = !dogru; // sonuc şimdi false
+
+```
+
