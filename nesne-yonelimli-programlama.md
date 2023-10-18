@@ -170,3 +170,53 @@ class Program
 
 
 ```
+
+## Abstract Sınıflar
+Abstract sınıflar, bir sınıfın soyut (abstract) methodları içerebildiği sınıflardır. Bir abstract sınıf, kendisinden türetilen sınıflar için bir temel sınıf (base class) görevi görür. İşte abstract sınıfların temel özellikleri:
+
+- Soyut sınıflar soyut methodlar (gövdesiz methodlar) içerebilir.
+- Abstract sınıflardan nesne oluşturulamaz, yani abstract sınıfların örneği (instance) alınamaz.
+- Bir sınıf sadece bir abstract sınıfı kalıtım alabilir (inherit).
+- Abstract sınıflar, kalıtım alan sınıflara, soyut methodları uygulama (override) zorunluluğu getirebilir.
+Örnek bir abstract sınıf tanımı:
+
+```csharp
+public abstract class Sekil
+{
+    public abstract double AlanHesapla();
+}
+
+
+```
+
+## Sealed Class (Mühürlü Sınıf)
+Sealed classlar, başka sınıfların bu sınıfı miras almasını (inherit) önleyen sınıflardır. Sealed classlar genellikle kalıtımı (inheritance) sınırlamak ve sınıflarınızın kontrolünü sağlamak için kullanılır.
+
+Örnek bir abstract sınıf tanımı:
+
+```csharp
+public sealed class MuhurluSinif
+{
+    // ...
+}
+```
+## Partial Class (Kısmi Sınıf)
+Partial classlar, sınıfın tanımını birden çok dosyada paylaşmanıza olanak tanır. Bu, büyük sınıfları daha yönetilebilir ve okunabilir hale getirir. Genellikle otomatik kod oluşturma araçlarıyla kullanılırlar.
+
+Partial Class Windows Form App üzerinde de vardır 
+
+Örnek bir abstract sınıf tanımı:
+
+```csharp
+public partial class KismiSinif
+{
+    // ...
+}
+
+public partial class KismiSinif
+{
+    // ...
+}
+
+```
+

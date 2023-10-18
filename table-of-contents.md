@@ -53,16 +53,18 @@
    - finally Bloğu
    - Hata Ayıklama Teknikleri
 
-## 9. [Dosya İşlemleri](dosya-işlemleri.md) (isteğe bağlı)
+## 9. [Dosya İşlemleri](dosya-işlemleri.md)
    - Dosya Okuma
    - Dosya Yazma
    - Dosya Yönetimi
    - Akışlar (Streams)
    - Dosya İzinleri
 
-## 10. [Event ve Delegate](event-delegate.md.md) (isteğe bağlı)
-    - Etkinlikler (Events)
-    - Delegeler
+## 10. [Event ve Delegate](event-delegate.md.md)
+ - Etkinlikler (Events)
+ - Delegeler
 
+
+ 
 
 
