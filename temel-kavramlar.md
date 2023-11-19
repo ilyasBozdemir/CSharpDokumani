@@ -49,19 +49,7 @@ Veri tipleri, bir değişkenin hangi türde veri saklayacağını belirler. İş
 Değişken adları harfle veya alt çizgi (_) ile başlamalıdır.
 Değişken adları yalnızca harf, rakam ve alt çizgi içerebilir.
 Büyük ve küçük harf ayrımına duyarlıdır, yani "degisken" ve "Degisken" farklı değişkenlerdir.
-
-**Değer Tipleri:**
-- `int`: Tam sayılar (C, C++, Java, C# gibi dillerde).
-- `float`, `double`: Ondalık sayılar (C, C++, Java, C# gibi dillerde).
-- `char`: Karakter (C, C++, Java, C# gibi dillerde).
-- `struct`: Yapılar (C, C++ gibi dillerde).
-
-**Referans Tipleri:**
-- `class`: Nesneler ve sınıflar (Java, C# gibi dillerde).
-- `array`: Diziler (C#, Java gibi dillerde).
-- `interface`: Arayüzler (Java, C# gibi dillerde).
-- `list`, `dictionary`: Veri yapıları (C# gibi dillerde).
-
+Bu temel kavramlar, C# programlamasının temelini oluşturur. Veri tipleri ve değişkenler, verilerin işlenmesi için önemlidir ve daha karmaşık programlar yazarken sıkça kullanılır.
 
 
 
