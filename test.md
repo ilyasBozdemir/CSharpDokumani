@@ -1,3 +1,8 @@
+---
+title: "Package.json Scripts"
+---
+
+
 ```json filename="package.json"
 {
   "scripts": {
